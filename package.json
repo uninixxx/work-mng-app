@@ -1,0 +1,13 @@
+{
+  "name": "salary-note",
+  "version": "1.0.0",
+  "private": true,
+  "description": "個人用の給与明細保管・集計アプリ",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "check": "node --check src/app.js && node --check src/core.js && node scripts/build.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
